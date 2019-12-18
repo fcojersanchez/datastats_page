@@ -167,14 +167,14 @@ function handleSampleDataQueryResponse(response) {
             var sel = chart.getSelection()[0];
             if (sel) {
                 document.getElementById("piechart").style.visibility='visible';
-                alert(' ROW ' + chart.getSelection()[0].row
+/*                 alert(' ROW ' + chart.getSelection()[0].row
                 + ' / ' + view.getValue(chart.getSelection()[0].row,0)
                 + ' / ' + view.getValue(chart.getSelection()[0].row,1)
                 + ' / ' + view.getValue(chart.getSelection()[0].row,2)
                 + ' Q ' + view.getValue(chart.getSelection()[0].row,3)
                 + ' R ' + view.getValue(chart.getSelection()[0].row,4)
                 + ' A ' + view.getValue(chart.getSelection()[0].row,8)
-                );
+                ); */
                 var piedata = new google.visualization.DataTable();
                 piedata.addColumn('string', 'Segment');
                 piedata.addColumn('number', '#users');
