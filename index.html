@@ -1,0 +1,43 @@
+<head>
+        <!--Load the AJAX API-->
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript" src="processing.js"></script>
+        <style>
+        
+        *{
+          font-family: sans-serif;  
+        }
+        
+        .goog-menu-button-outer-box{
+            background-color: #FFFFFF;
+            padding: 5px;
+            border: 1px solid #3275a8;
+        }
+
+        .goog-menu-button-inner-box{
+          border:0;
+        }  
+        
+        </style>
+        </head>
+        <body>
+        <!--Div that will hold the dashboard-->
+        <div style="border: 1px solid #ccc">
+         <!--Divs that will hold each control and chart-->
+               <table class="columns" style="width:100%">
+                <tr>
+                  <td>
+                  <div id="dashboard_div" style="text-align: center;">
+                 <div id="filter_div" style="margin: 20px auto"></div>
+                 <div id="filter_n_div" style="margin: 20px auto"></div>
+                 <div id="DummyTable" style="display: none;"></div>
+                 </div>
+                  </td>
+                  <td>
+                  <div id="piechart"  style="width: 500px; height: 200px; margin:0 auto"></div>
+                  </td>
+                 </tr>
+                 </table>
+        </div>
+        <div id="sankey_basic" style="width: 700px; height: 600px; margin: 20px auto"></div>
+        </body>
