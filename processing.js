@@ -18,7 +18,7 @@ function handleSampleDataQueryResponse(response) {
     // Sets chart options.
 
     var colors = ['#a6cee3', '#b2df8a', '#fb9a99', '#fdbf6f', '#cab2d6', '#ffff99', '#1f78b4', '#33a02c'];
-    var piecolors = ['#F66D44','#FEAE65','#E6F69D','#AADEA7','#64C2A6','#2D87BB'];
+    var piecolors = ['#F66D44','#FEAE65','#E6F69D','#AADEA7','#64C2A6','#2D87BB','#E0E0E0'];
     var options = {
         width: 700,
         height: 600,
