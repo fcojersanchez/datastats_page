@@ -5,7 +5,7 @@ function drawSheetName() {
     var queryString = encodeURIComponent('SELECT *');
 
     var query = new google.visualization.Query(
-        'https://docs.google.com/spreadsheets/d/1_TcArXlDaLo_MxxWk7N3uxktsdicm9hCjbPPKfOW7SQ/gviz/tq?sheet=Sankey&headers=1&tq=' + queryString);
+        'https://docs.google.com/spreadsheets/d/1P-Udb917hWmXzUL3XuLCjU-P2ee8co_CjvP6x2OkpTs/gviz/tq?sheet=Sankey&headers=1&tq=' + queryString);
     query.send(handleSampleDataQueryResponse);
 }
 
